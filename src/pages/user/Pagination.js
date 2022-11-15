@@ -28,25 +28,23 @@ export default function Pagination({
           className='relative z-0 inline-flex rounded-md shadow-sm -space-x-px'
           aria-label='Pagination'
         >
-          <a
+          <button
             onClick={() => {
               paginateBack();
             }}
-            href='#'
             className={`relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 text-sm font-medium text-gray-500 hover:bg-gray-50 ${currentPage === 1 ? 'disable-link bg-grey' : 'bg-white'}`}
           >
-            <span>Previous</span>
-          </a>
+            Previous
+          </button>
           &nbsp;
-          <a
+          <button
             onClick={() => {
               paginateFront();
             }}
-            href='#'
             className={`relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 text-sm font-medium text-gray-500 hover:bg-gray-50 ${currentPage === Math.ceil(totalUsers / usersPerPage) ? 'disable-link bg-grey' : 'bg-white'}`}
           >
-            <span>Next</span>
-          </a>
+            Next
+          </button>
         </nav>
       </div>
     </div>

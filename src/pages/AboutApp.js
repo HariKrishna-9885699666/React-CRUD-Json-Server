@@ -92,7 +92,7 @@ export default function AboutApp() {
                                                                 <span className="text-sm text-gray-500 dark:text-gray-400">9885699666</span>
                                                                 <span className="text-sm text-gray-500 dark:text-gray-400">anemharikrishna@gmail.com</span>
                                                                 <div className="flex mt-4 space-x-3 md:mt-6">
-                                                                    <a href="https://web.whatsapp.com/send?text=Hello&phone=9885699666" className="inline-flex items-center py-2 px-4 text-sm font-medium text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700" target="_blank">Message</a>
+                                                                    <a href="https://web.whatsapp.com/send?text=Hello&phone=9885699666" className="inline-flex items-center py-2 px-4 text-sm font-medium text-center text-gray-900 bg-white rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-700 dark:focus:ring-gray-700" target="_blank" rel="noreferrer">Message</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -100,10 +100,10 @@ export default function AboutApp() {
                                                         <div className="bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                                                             <div className="flex justify-end px-4 pt-4">&nbsp;</div>
                                                             <div className="flex flex-col items-center pt-10">
-                                                                <a href="https://github.com/HariKrishna-9885699666" target="_blank"><img src="images/github.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" /></a>
-                                                                <a href="https://www.linkedin.com/in/anemharikrishna" target="_blank"><img src="images/linkedin.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" /></a>
-                                                                <a href="https://harikrishna.netlify.app/" target="_blank"><img src="images/portfolio.png" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" /></a>
-                                                                <a href="https://harikrishna.hashnode.dev/" target="_blank"><img src="images/blog.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" /></a>
+                                                                <a href="https://github.com/HariKrishna-9885699666" target="_blank"><img src="images/github.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" rel="noreferrer"/></a>
+                                                                <a href="https://www.linkedin.com/in/anemharikrishna" target="_blank"><img src="images/linkedin.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" rel="noreferrer"/></a>
+                                                                <a href="https://harikrishna.netlify.app/" target="_blank"><img src="images/portfolio.png" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" rel="noreferrer"/></a>
+                                                                <a href="https://harikrishna.hashnode.dev/" target="_blank"><img src="images/blog.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" rel="noreferrer"/></a>
                                                             </div>
                                                         </div>
                                                     </div>)}

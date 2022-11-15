@@ -38,7 +38,7 @@ function Home() {
   const indexOfFirstUser = indexOfLastUser - usersPerPage;
   useEffect(() => {
     setCurrentUsers(users.filter(item => item.name.includes(filterKey) || item.phoneNumber.toString().includes(filterKey) || item.uid.includes(filterKey)).slice(indexOfFirstUser, indexOfLastUser));
-  }, [indexOfFirstUser, indexOfLastUser, users]);
+  }, [indexOfFirstUser, indexOfLastUser, users, filterKey]);
 
   const paginateFront = () => setCurrentPage(currentPage + 1);
   const paginateBack = () => setCurrentPage(currentPage - 1);
