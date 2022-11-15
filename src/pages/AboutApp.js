@@ -100,10 +100,10 @@ export default function AboutApp() {
                                                         <div className="bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                                                             <div className="flex justify-end px-4 pt-4">&nbsp;</div>
                                                             <div className="flex flex-col items-center pt-10">
-                                                                <a href="https://github.com/HariKrishna-9885699666" target="_blank"><img src="images/github.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" rel="noreferrer"/></a>
-                                                                <a href="https://www.linkedin.com/in/anemharikrishna" target="_blank"><img src="images/linkedin.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" rel="noreferrer"/></a>
-                                                                <a href="https://harikrishna.netlify.app/" target="_blank"><img src="images/portfolio.png" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" rel="noreferrer"/></a>
-                                                                <a href="https://harikrishna.hashnode.dev/" target="_blank"><img src="images/blog.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg" rel="noreferrer"/></a>
+                                                                <a href="https://github.com/HariKrishna-9885699666" target="_blank" rel="noreferrer"><img src="images/github.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
+                                                                <a href="https://www.linkedin.com/in/anemharikrishna" target="_blank" rel="noreferrer"><img src="images/linkedin.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
+                                                                <a href="https://harikrishna.netlify.app/" target="_blank" rel="noreferrer"><img src="images/portfolio.png" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
+                                                                <a href="https://harikrishna.hashnode.dev/" target="_blank" rel="noreferrer"><img src="images/blog.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
                                                             </div>
                                                         </div>
                                                     </div>)}
