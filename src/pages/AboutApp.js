@@ -86,7 +86,7 @@ export default function AboutApp() {
                                                         <div className="w-full bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                                                             <div className="flex justify-end px-4 pt-4">&nbsp;</div>
                                                             <div className="flex flex-col items-center pb-10">
-                                                                <img className="mb-3 w-24 h-24 rounded-full shadow-lg" src="https://harikrishna.netlify.app/assets/img/profile-img.jpg" alt="Hari Krishna Anem" />
+                                                                <img className="mb-3 w-24 h-24 rounded-full shadow-lg" src="https://harikrishna.netlify.app/assets/img/profile-img.jpg" alt="Hari Krishna Anem" title="Hari Krishna Anem" />
                                                                 <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Hari Krishna Anem</h5>
                                                                 <span className="text-sm text-gray-500 dark:text-gray-400">Senior full stack developer</span>
                                                                 <span className="text-sm text-gray-500 dark:text-gray-400">9885699666</span>
@@ -100,10 +100,10 @@ export default function AboutApp() {
                                                         <div className="bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                                                             <div className="flex justify-end px-4 pt-4">&nbsp;</div>
                                                             <div className="flex flex-col items-center pt-10">
-                                                                <a href="https://github.com/HariKrishna-9885699666" target="_blank" rel="noreferrer"><img src="images/github.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
-                                                                <a href="https://www.linkedin.com/in/anemharikrishna" target="_blank" rel="noreferrer"><img src="images/linkedin.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
-                                                                <a href="https://harikrishna.netlify.app/" target="_blank" rel="noreferrer"><img src="images/portfolio.png" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
-                                                                <a href="https://harikrishna.hashnode.dev/" target="_blank" rel="noreferrer"><img src="images/blog.gif" alt="about" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
+                                                                <a href="https://github.com/HariKrishna-9885699666" target="_blank" rel="noreferrer"><img src="images/github.gif" title="gitbub" alt="gitbub" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
+                                                                <a href="https://www.linkedin.com/in/anemharikrishna" target="_blank" rel="noreferrer"><img src="images/linkedin.gif" title="linkedin" alt="linkedin" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
+                                                                <a href="https://harikrishna.netlify.app/" target="_blank" rel="noreferrer"><img src="images/portfolio.png" title="portfolio" alt="portfolio" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
+                                                                <a href="https://harikrishna.hashnode.dev/" target="_blank" rel="noreferrer"><img src="images/blog.gif" title="blog" alt="blog" width={35} height={35} className="mb-3 w-18 h-18 rounded-full shadow-lg"/></a>
                                                             </div>
                                                         </div>
                                                     </div>)}
