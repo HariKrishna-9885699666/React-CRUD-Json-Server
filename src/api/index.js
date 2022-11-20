@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://localhost:3001/users";
+const baseUrl = "/users";
 
 export async function loadUsers(filter, setLoading) {
     if (setLoading) setLoading(true);
